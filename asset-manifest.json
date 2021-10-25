@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/top-shoping-cart/static/css/main.9e7540c7.chunk.css",
-    "main.js": "/top-shoping-cart/static/js/main.eee08e84.chunk.js",
-    "main.js.map": "/top-shoping-cart/static/js/main.eee08e84.chunk.js.map",
+    "main.js": "/top-shoping-cart/static/js/main.bd8228d9.chunk.js",
+    "main.js.map": "/top-shoping-cart/static/js/main.bd8228d9.chunk.js.map",
     "runtime-main.js": "/top-shoping-cart/static/js/runtime-main.acc696de.js",
     "runtime-main.js.map": "/top-shoping-cart/static/js/runtime-main.acc696de.js.map",
     "static/js/2.37ca4ad4.chunk.js": "/top-shoping-cart/static/js/2.37ca4ad4.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.acc696de.js",
     "static/js/2.37ca4ad4.chunk.js",
     "static/css/main.9e7540c7.chunk.css",
-    "static/js/main.eee08e84.chunk.js"
+    "static/js/main.bd8228d9.chunk.js"
   ]
 }
