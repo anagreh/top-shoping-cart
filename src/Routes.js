@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter , Switch, Route } from "react-router-dom";
 import CartBody from "./components/CartBody";
 import HomeBody from "./components/HomeBody";
 import Nav from "./components/Nav";
@@ -43,17 +43,17 @@ export default function Routes(){
   }
 
   return(
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Nav cartItems ={cartItems} handleAddCartItems={handleAddCartItems}/>
       <Switch>
-        <Route exact path="/top-shoping-cart" component={HomeBody}></Route>
-        <Route path="top-shoping-cart/shop">
+        <Route exact path="/" component={HomeBody}></Route>
+        <Route path="/shop">
           <ShopBody cartItems ={cartItems} handleAddCartItems={handleAddCartItems} />
         </Route >
-        <Route path="top-shoping-cart/cart">
+        <Route path="/cart">
           <CartBody cartItems ={cartItems} handleQuantityChange={handleQuantityChange} />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
