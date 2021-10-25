@@ -1,0 +1,33 @@
+.home-body{
+  display: flex;
+  background-color:rgb(250, 244, 218);
+  flex-grow: 1;
+}
+
+.home-body h1{
+  margin: 0;
+}
+
+.home-body img{
+  max-height: 100%;
+  width: auto;
+  margin-left: 0
+}
+
+.home-body .overview {
+  margin: auto;
+  text-align: center;
+
+}
+
+.home-body a{
+  display: block;
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-decoration: inherit;
+
+}
+
+.home-body a:visited, .home-body a:active {
+  color:inherit ;
+}

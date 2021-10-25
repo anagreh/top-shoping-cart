@@ -1,0 +1,34 @@
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: azure;
+  height: 50px;
+
+}
+
+nav a{
+ font-size: 1.5rem;
+ text-decoration: inherit;
+ position: relative;
+
+}
+
+nav a:visited, nav a:active {
+  color:inherit ;
+}
+
+nav .number-cart-items{
+  position: absolute;
+  font-size: 1rem;
+  right: -15px;
+  top:-5px;
+
+  width: 1rem;
+  height: 1rem;
+
+  text-align: center;
+  border-radius: 50%;
+  background-color: aqua;
+}
