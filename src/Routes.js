@@ -46,11 +46,11 @@ export default function Routes(){
     <BrowserRouter>
       <Nav cartItems ={cartItems} handleAddCartItems={handleAddCartItems}/>
       <Switch>
-        <Route exact path="/" component={HomeBody}></Route>
-        <Route path="/shop">
+        <Route exact path="/top-shoping-cart" component={HomeBody}></Route>
+        <Route path="top-shoping-cart/shop">
           <ShopBody cartItems ={cartItems} handleAddCartItems={handleAddCartItems} />
         </Route >
-        <Route path="/cart">
+        <Route path="top-shoping-cart/cart">
           <CartBody cartItems ={cartItems} handleQuantityChange={handleQuantityChange} />
         </Route>
       </Switch>

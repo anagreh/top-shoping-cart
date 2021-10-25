@@ -8,7 +8,7 @@ return (
     <div className='overview'>
     <h1>Welcome to Tornado</h1>
 
-    <Link to='/shop'>Shop</Link>
+    <Link to='top-shoping-cart/shop'>Shop</Link>
 
     </div>
 
